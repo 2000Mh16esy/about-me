@@ -73,3 +73,7 @@ main {
     height: auto;
     border-radius: 5px;
 }
+.swiper {
+    width: 900px;
+    height: 600px;
+}

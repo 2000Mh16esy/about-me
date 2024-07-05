@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducing Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body class="background">
@@ -28,25 +31,27 @@
                     This is the story of me and my journey to my dreams.</p>
             </div>
         </section>
-
-        <section class="gallery">
-            <div class="container">
-                <h2>Gallery</h2>
-                <div class="photo-grid">
-                    <!-- Placeholder images, replace with actual Dumbbell Nebula photos -->
-                    <div class="photo">
-                        <img src="../images/PIA04249~orig.jpg" alt="Dumbbell Nebula">
-                    </div>
-                    <div class="photo">
-                        <img src="dumbbell-nebula2.jpg" alt="Dumbbell Nebula">
-                    </div>
-                    <div class="photo">
-                        <img src="dumbbell-nebula3.jpg" alt="Dumbbell Nebula">
-                    </div>
-                    <!-- Add more photos as needed -->
-                </div>
+        
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
             </div>
-        </section>
+            
+            <div class="swiper-pagination"></div>
+
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            
+            <div class="swiper-scrollbar"></div>
+        </div>
     </main>
 
     <footer>
@@ -54,6 +59,8 @@
             <p>&copy; 2024 Introducing Me. All rights reserved.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
