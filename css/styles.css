@@ -13,7 +13,9 @@
  .background { 
     font-family: Arial, sans-serif;
     background: radial-gradient(ellipse at top, #180520, transparent), 
-    radial-gradient(ellipse at bottom, #362449, transparent);
+    radial-gradient(ellipse at bottom, #362449, transparent),
+    radial-gradient(ellipse at right, #060afd, transparent),
+    radial-gradient(ellipse at left, #0a0b3d, transparent);
     background-size: cover;
 
 } 
@@ -22,7 +24,14 @@
     background-image: url('../images/PIA14415.jpg');
     background-size: cover;
     color: #d4d4d4;
-    padding: 1rem;
+    padding: 4rem;
+}
+
+@media (min-width: 767px) {
+    .main-head {
+        padding: 4rem;
+    }
+
 }
 
 main {
@@ -64,5 +73,3 @@ main {
     height: auto;
     border-radius: 5px;
 }
-
-
