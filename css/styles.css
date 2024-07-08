@@ -5,12 +5,12 @@
     box-sizing: border-box;
     color: #d4d4d4
 }
- 
- body {
-    height: 100vh;
- }
 
- .background { 
+body {
+    height: 100vh;
+}
+
+.background { 
     font-family: Arial, sans-serif;
     background: radial-gradient(ellipse at top, #180520, transparent), 
     radial-gradient(ellipse at bottom, #362449, transparent),
@@ -19,23 +19,22 @@
     background-size: cover;
 
 } 
- 
+
 .main-head{
     background-image: url('../images/PIA14415.jpg');
     background-size: cover;
-    color: #d4d4d/* Reset default styles */
-    * {
-        margin: 0;
+    color: #d4d4;
+    margin: 0;
         padding: 0;
         box-sizing: border-box;
         color: #d4d4d4
     }
-     
-     body {
+
+.body {
         height: 100vh;
-     }
+    }
     
-     .background { 
+.background { 
         font-family: Arial, sans-serif;
         background: radial-gradient(ellipse at top, #180520, transparent), 
         radial-gradient(ellipse at bottom, #362449, transparent),
@@ -44,7 +43,6 @@
         background-size: cover;
     
     } 
-     
     .main-head{
         background-image: url('../images/PIA14415.jpg');
         background-size: cover;
@@ -69,7 +67,6 @@
     
     .swiper-slide{
         text-align: center;
-       
     }
     
     
@@ -93,8 +90,6 @@
                 height: 70px;
             
         }
-    }4;
-    padding: 4rem;
 }
 
 @media (min-width: 767px) {
