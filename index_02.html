@@ -3,29 +3,111 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Click here
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Family</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <h1>MY Biography</h1>
-    <div id="flipbook">
-        <div class="hard"> Flip </div>
-        <div class="hard"></div>
-        <div> Page 1 </div>
-        <div> Page 2 </div>
-        <div> Page 3 </div>
-        <div> Page 4 </div>
-        <div class="hard"></div>
-        <div class="hard"></div>
-    </div>
+    <h1>MY Bio</h1>
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        body {
+          background: #fff;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper {
+          width: 528px;
+          height: 640px;
+        }
+    
+        .swiper-slide {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          font-size: 22px;
+          font-weight: bold;
+          color: #fff;
+        }
+    
+        .swiper-slide:nth-child(1n) {
+          background-color: rgb(206, 17, 17);
+        }
+    
+        .swiper-slide:nth-child(2n) {
+          background-color: rgb(0, 140, 255);
+        }
+    
+        .swiper-slide:nth-child(3n) {
+          background-color: rgb(10, 184, 111);
+        }
+    
+        .swiper-slide:nth-child(4n) {
+          background-color: rgb(211, 122, 7);
+        }
+      </style>
+    </head>
+    
+    <body>
+      <!-- Swiper -->
+    
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+        </div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "cards",
+          grabCursor: true,
+        });
+      </script>
+  
     
     <p>Back to <a href="index.html">Home Page</a></p>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/turn.min.js"></script>
-    <script src="js/scripts.js"></script>
+ 
 </body>
 
 </html>
