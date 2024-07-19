@@ -21,7 +21,7 @@ body {
 } 
 
 .main-head{
-    background-image: url('../images/PIA14415.jpg');
+    background-image: url('../images/background_header.jpg');
     background-size: cover;
     color: #d4d4;
     margin: 0;
@@ -44,7 +44,7 @@ body {
     
     } 
     .main-head{
-        background-image: url('../images/PIA14415.jpg');
+        background-image: url('../images/images/background_header.jpg');
         background-size: cover;
         color: #d4d4d4;
         padding: 4rem;
