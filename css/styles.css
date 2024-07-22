@@ -29,26 +29,6 @@ body {
         box-sizing: border-box;
         color: #d4d4d4
     }
-
-.body {
-        height: 100vh;
-    }
-    
-.background { 
-        font-family: Arial, sans-serif;
-        background: radial-gradient(ellipse at top, #180520, transparent), 
-        radial-gradient(ellipse at bottom, #362449, transparent),
-        radial-gradient(ellipse at right, #060afd, transparent),
-        radial-gradient(ellipse at left, #0a0b3d, transparent);
-        background-size: cover;
-    
-    } 
-    .main-head{
-        background-image: url('../images/images/background_header.jpg');
-        background-size: cover;
-        color: #d4d4d4;
-        padding: 4rem;
-    }
     
     main {
         padding: 2rem;
@@ -70,10 +50,7 @@ body {
     }
     
     
-    
-    
-    
-    @media (min-width: 767px) {
+     @media (min-width: 767px) {
         .main-head {
             padding: 4rem;
         }

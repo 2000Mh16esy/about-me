@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Family</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/styles_02.css">
+    <link rel="stylesheet" href="css/styles_01.css">
 
 </head>
     <style>
@@ -17,16 +17,18 @@
         }
     
         body {
-          background: #eee;
+          background: #f5eeee;
           font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
           font-size: 14px;
           color: #000;
           margin: 0;
           padding: 0;
         }
-    
         body {
-          background: #fff;
+          background:  radial-gradient(ellipse at top, #f0b2cd, transparent), 
+            radial-gradient(ellipse at bottom, #9c71e1, transparent),
+            radial-gradient(ellipse at right, #7182e0, transparent),
+            radial-gradient(ellipse at left, #cc6576, transparent);
           font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
           font-size: 14px;
           color: #000;
@@ -62,19 +64,19 @@
         }
     
         .swiper-slide:nth-child(1n) {
-          background-color: rgb(206, 17, 17);
+          background-color: rgb(244, 184, 140);
         }
     
         .swiper-slide:nth-child(2n) {
-          background-color: rgb(0, 140, 255);
+          background-color: rgb(164, 239, 137);
         }
     
         .swiper-slide:nth-child(3n) {
-          background-color: rgb(10, 184, 111);
+          background-color: rgb(242, 132, 193);
         }
     
         .swiper-slide:nth-child(4n) {
-          background-color: rgb(211, 122, 7);
+          background-color: rgb(250, 102, 122);
         }
       </style>
     </head>
@@ -83,15 +85,22 @@
     
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><h1>MY Bio</h1>
+          <div class="swiper-slide">
             <ul>
+              <h1>MY Bio</h1>
                 <li>Date of birth : 16 May 2000</li>
                 <li>Education history : start education since 4</li>
                 <li>Gratuated highschool : at 16</li>
                 <li>University : West Yangon University[English specialization]</li>
-                <li>Favouriate things : Eating, Sleeping , Spacing out, Gaming, Dancing, Psychology, Thinking</li> 
+                <li>Favouriate things : Eating, Sleeping , Spacing out, Gaming, Dancing, Psychology, Thinking, Commanding</li> 
+            </ul>    
           </div>
-          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">
+            <ul>
+              <h2>Sports</h2>
+              <li></li>
+            </ul>
+          </div>
           <div class="swiper-slide">Slide 3</div>
           <div class="swiper-slide">Slide 4</div>
         </div>
