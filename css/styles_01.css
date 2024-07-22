@@ -1,0 +1,7 @@
+/* position */
+.footer{
+    position:fixed;
+    top : 8;
+    left : 9;
+    right : 9;
+}
