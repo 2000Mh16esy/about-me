@@ -368,7 +368,7 @@
     border-radius: 4px;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%),
-     url('/about_me/images/download\ \(3\).jpg');
+     url('./download\ \(3\).jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -377,19 +377,19 @@
 .services__card:nth-child(2){
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%),
-     url('/about_me/images/download\ \(6\).jpg');
+     url('./download\ \(6\).jpg');
 }
 
 .services__card:nth-child(3){
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%),
-     url('/about_me/images/download\ \(4\).jpg');
+     url('./download\ \(4\).jpg');
 }
 
 .services__card:nth-child(4){
     background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%),
-     url('/about_me/images/download\ \(5\).jpg');
+     url('./download\ \(5\).jpg');
 }
 
 .services h2{
